@@ -96,10 +96,6 @@ body {
   height: 125px;
 }
 
-.btn-rules {
-  margin-top: 200px;
-}
-
 .img-out__circle--paper {
   background: var(--Paper-Gradient);
 }
@@ -117,4 +113,21 @@ body {
 display:flex;
 flex-direction: row;
 justify-content: space-around;
+}
+
+.btn-conteiner {
+  width: 100vw;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.btn-rules {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  color: white;
+  text-transform: uppercase;
 }
