@@ -10,17 +10,6 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 
-  Score
-  Rules
-
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -28,8 +17,33 @@
   </style>
 </head>
 <body>
+  <div class="header">
+    <h1 class="header__title">ROCK<br>PAPER<br>SCISSORS</h1>
+    <div class="header__score">
+      <span class="score__title">score</span>
+      <span class="score__points">0</span>
+    </div>
+  </div>
+  <div class="img-conteiner">
+    <div class="img-out__circle">
+      <div class="img-in__circle">
+        <img src="images/icon-paper.svg" alt="paper">
+      </div>
+    </div>
 
+    <div class="img-out__circle">
+      <div class="img-in__circle">
+        <img src="images/icon-scissors.svg" alt="scissors">
+      </div>
+    </div> 
 
+    <div class="img-out__circle">
+      <div class="img-in__circle">
+        <img src="images/icon-rock.svg" alt="rock">
+      </div>
+    </div>   
+  </div>
+  <button class="btn-rules">Rules</button>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
