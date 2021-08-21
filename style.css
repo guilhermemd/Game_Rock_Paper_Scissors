@@ -23,6 +23,7 @@ img {
 body {
   background: var(--Radial-Gradient);
   font-family: var(--font);
+  height: 100vh;
 }
 
 .header {
@@ -69,4 +70,42 @@ body {
 .img-conteiner {
   background-image: url(../images/bg-triangle.svg);
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img__icons {
+  width: 50px;
+  height: 50px;
+  transform: translate(38%, 38%);
+}
+
+.img-in__circle {
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(19%, 19%);
+  width: 90px;
+  height: 90px;
+}
+
+.img-out__circle {
+  border-radius: 50%;
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+
+.btn-rules {
+  margin-top: 200px;
+}
+
+.img-out__circle--paper {
+  background: var(--Paper-Gradient);
+}
+
+.img-out__circle--scissors {
+  background: var(--Scissors-Gradient);
+}
+
+.img-out__circle--rock {
+  background: var(--Rock-Gradient);
 }
