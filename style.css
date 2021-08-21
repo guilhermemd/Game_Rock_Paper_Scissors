@@ -72,6 +72,7 @@ body {
   background-repeat: no-repeat;
   background-position: center; 
   background-size: 50%;
+  margin-top: 40%;
 }
 
 .img__icons {
@@ -109,4 +110,11 @@ body {
 
 .img-out__circle--rock {
   background: var(--Rock-Gradient);
+  margin: 0 auto;
+}
+
+.img-conteiner--paper--scissors {
+display:flex;
+flex-direction: row;
+justify-content: space-around;
 }
