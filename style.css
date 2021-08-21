@@ -24,3 +24,49 @@ body {
   background: var(--Radial-Gradient);
   font-family: var(--font);
 }
+
+.header {
+  border: 5px solid var(--Header-Outline);
+  display: flex;
+  max-width: 500px;
+  margin: 1.5em 1.5em 1.5em;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__h1 h1 + h1 {
+  margin-top: -0.35rem;
+}
+
+.header__h1 {
+  color: white;
+}
+
+.header__score {
+  background: white;
+  border-radius: 0.5em;
+  padding: 0.5rem 1.4rem;
+}
+
+.score__title {
+  font-size: 0.5em;
+  color: var(--Score-Text);
+}
+
+.score__points {
+  font-size: 1.5em;
+  color:  var(--Header-Outline);
+}
+
+.img-conteiner {
+  background-image: url(../images/bg-triangle.svg);
+  background-repeat: no-repeat;
+}
